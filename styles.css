@@ -1,7 +1,29 @@
 .title {
   font-size: 5rem;
+  text-align: center;
+}
 
+.notes {
+  text-align: center;
+  /* display flex will allow div to be a parent and
+all the element inside it be its childern and the childern will all fit in
+a display: blick status that can be manipulated  to be spaced evenly  */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
 
+.notes_set {
+  font-size: 8rem;
+}
 
-
+.footer {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
 }
