@@ -7,10 +7,12 @@
 
 
 // PLAYING RANDOM SOUNDS
-// To play sound you can either write the following inside a function:
-// -Option 1:  var audioo= new Audio('ominous-drums-appear.mp3').play();
-//    audioo.play();
-// -Option 2. new Audio('ominous-drums-appear.mp3').play();
+// To play sound you can either write "new Audio" object with or without var. the play() is a method.:
+// -Option 1: with a var
+ // var audioo= new Audio('ominous-drums-appear.mp3').play();
+//  audioo.play();
+// -Option 2. without a var
+// new Audio('ominous-drums-appear.mp3').play();
 // -Note: the new Audio constrcutors (a function that initizlises an instance) is important
 
 
@@ -54,3 +56,10 @@ function U() {
   var u = new Audio('UFunnyCartoonTones.mp3');
   u.play();
 }
+
+
+
+
+
+
+document.getElementsByClassName("Q").style.backgroundImage=q.jpg;

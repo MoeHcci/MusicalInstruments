@@ -22,7 +22,20 @@
 <body>
   <h1 class="title">&#127926; Drum Kit 🥁</h1>
   <div class="notes">
-    <button class="notes_set Q" onClick="Q()">Q</button>
+
+    <!-- This button/image is made using "butoon/image" method 1 -->
+    <div class="q_container">
+
+      <button type="button" class="notes_set Q" onClick="Q()">
+        <img class="q_img" src="q.jpg" />
+        <p class="q_center">
+          Q
+        </p>
+      </button>
+    </div>
+
+
+
     <button class="notes_set W" onClick="W()">W</button>
     <button class="notes_set E" onClick="E()">E</button>
     <button class="notes_set R" onClick="R()">R</button>

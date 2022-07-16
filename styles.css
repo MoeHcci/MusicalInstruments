@@ -24,8 +24,8 @@ a display: blick status that can be manipulated  to be spaced evenly  */
   font-family: 'Ubuntu', sans-serif;
   font-size: 5rem;
   border-radius: 20%;
-  width: 10rem;
-  height: 14rem;
+  width: 15.625rem;
+  height: 15rem;
   border: 0.375rem solid black;
   color: #C7D3D4FF;
   background-color: #00239CFF;
@@ -44,47 +44,41 @@ a display: blick status that can be manipulated  to be spaced evenly  */
   transform: translateY(0.375rem);
 }
 
-.Q{
+.Q {}
 
+/* This class is for "butoon/image" method 1 */
+.q_container {
+  position: relative;
+  text-align: center;
 }
 
-.W{
-
+.q_img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 30%;
 }
 
-.E{
-
+.q_center {
+  position: absolute;
+  top: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  left: 0rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.R{
+.W {}
 
-}
+.E {}
 
-.T{
+.R {}
 
-}
-.Y{
+.T {}
 
-}
+.Y {}
 
-.U{
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.U {}
 
 .footer {
   font-family: 'Montserrat', sans-serif;
