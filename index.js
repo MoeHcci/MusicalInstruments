@@ -23,12 +23,12 @@ function Q() {
 
 // Option 2
 function W() {
-    new Audio('Wpiano_game_over.mp3').play();
+    new Audio('Wpiano.mp3').play();
 }
 
 // Option 1
 function E() {
-  var e = new Audio('Eflute_mobile_phone_notification.mp3');
+  var e = new Audio('Eflute.mp3');
   e.play();
 }
 
