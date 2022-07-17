@@ -18,42 +18,42 @@
 
 // Option 1
 function Q() {
-  var q = new Audio('Q_KnockingSubBass.mp3');
+  var q = new Audio('QJokesDrums.mp3');
   q.play();}
 
 // Option 2
 function W() {
-    new Audio('W_LosingDrums.mp3').play();
+    new Audio('Wpiano_game_over.mp3').play();
 }
 
 // Option 1
 function E() {
-  var e = new Audio('E_TribalDrumEchos.mp3');
+  var e = new Audio('Eflute_mobile_phone_notification.mp3');
   e.play();
 }
 
 // Option 1
 function R() {
-  var r = new Audio('R_FailDrumAndBells.mp3');
+  var r = new Audio('Rguitar.mp3');
   r.play();
 
 }
 
 // Option 1
 function T() {
-  var t = new Audio('TJokesDrums.mp3');
+  var t = new Audio('Tviolin.mp3');
   t.play();
 }
 
 // Option 1
 function Y() {
-  var y = new Audio('YDeepDarkHorrorDrum.mp3');
+  var y = new Audio('Yharp.mp3');
   y.play();
 }
 
 // Option 1
 function U() {
-  var u = new Audio('UFunnyCartoonTones.mp3');
+  var u = new Audio('Uharmonica.mp3');
   u.play();
 }
 

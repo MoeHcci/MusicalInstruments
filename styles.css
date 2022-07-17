@@ -51,13 +51,11 @@ a display: blick status that can be manipulated  to be spaced evenly  */
   position: relative;
   text-align: center;
 }
-
 .q_img {
   width: 14rem;
   height: 14rem;
   border-radius: 30%;
 }
-
 .q_center {
   position: absolute;
   top: 0rem;
