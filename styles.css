@@ -66,17 +66,155 @@ a display: blick status that can be manipulated  to be spaced evenly  */
   margin-right: auto;
 }
 
-.W {}
+
+/* This class is for "butoon/image" method 2 */
+/* The issue witht his method, we can not make the image has round corners
+because it is added to the div from a css class not added to an image element  */
+.W {
+background-image: url('piano.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 11rem;
+
+}
+
+
+
 
 .E {}
 
+  /* This class is for "butoon/image" method 1 */
+  .e_container {
+    position: relative;
+    text-align: center;
+  }
+  .e_img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 30%;
+  }
+  .e_center {
+    position: absolute;
+    top: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+    left: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
 .R {}
+  /* This class is for "butoon/image" method 1 */
+  .r_container {
+    position: relative;
+    text-align: center;
+  }
+  .r_img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 15%;
+  }
+  .r_center {
+    position: absolute;
+    top: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+    left: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .T {}
+  /* This class is for "butoon/image" method 1 */
+  .t_container {
+    position: relative;
+    text-align: center;
+  }
+  .t_img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 30%;
+  }
+  .t_center {
+    position: absolute;
+    top: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+    left: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .Y {}
+  /* This class is for "butoon/image" method 1 */
+  .y_container {
+    position: relative;
+    text-align: center;
+  }
+  .y_img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 30%;
+  }
+  .y_center {
+    position: absolute;
+    top: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+    left: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .U {}
+  /* This class is for "butoon/image" method 1 */
+  .u_container {
+    position: relative;
+    text-align: center;
+  }
+  .u_img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 30%;
+  }
+  .u_center {
+    position: absolute;
+    top: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+    left: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   font-family: 'Montserrat', sans-serif;

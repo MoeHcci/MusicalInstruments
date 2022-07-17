@@ -56,10 +56,3 @@ function U() {
   var u = new Audio('Uharmonica.mp3');
   u.play();
 }
-
-
-
-
-
-
-document.getElementsByClassName("Q").style.backgroundImage=q.jpg;
