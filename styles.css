@@ -8,6 +8,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.title_subsection {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 .notes {
   text-align: center;
   /* display flex will allow div to be a parent and
