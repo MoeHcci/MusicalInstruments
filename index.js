@@ -65,7 +65,7 @@ function U() {
 
 // We may use x.key = "q" or x.keyCode="81".  The 81 covers the capital/lower letters
 document.addEventListener("keydown", function(x)  {
-  if (x.keyCode == "81" || x.keyCode == "81")
+  if (x.keyCode == "81")
   new Audio('QJokesDrums.mp3').play();
   else if (x.key == "w" || x.key == "W")
   new Audio('Wpiano.mp3').play();
