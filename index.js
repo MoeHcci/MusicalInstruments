@@ -64,6 +64,8 @@ function U() {
 
 
 // We may use x.key = "q" or x.keyCode="81".  The 81 covers the capital/lower letters
+// For addEventListener it takes two inputs the first is the condition and the second what happens if the condition is satisfied
+// In this case the condition is pressing the keydown and when that is satisfied the function(x) will be exectured
 document.addEventListener("keydown", function(x)  {
   if (x.keyCode == "81")
   new Audio('QJokesDrums.mp3').play();
