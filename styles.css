@@ -49,7 +49,6 @@ a display: block status that can be manipulated  to be spaced evenly  */
     justify-content: space-evenly;
     margin-top: 10rem;
     margin-bottom: 10rem;
-    min-height: calc(100vh - 50px);
 
     min-height: calc(100vh - 500px);
     /* Use the calc() function to set the height of your wrapper equal to the
@@ -99,6 +98,8 @@ a display: block status that can be manipulated  to be spaced evenly  */
   width: 14rem;
   height: 14rem;
   border-radius: 30%;
+  background-position: center;
+
 }
 
 /* Issues were experinced while positioning the letters */
