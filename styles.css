@@ -57,7 +57,7 @@ a display: block status that can be manipulated  to be spaced evenly  */
 /* This class is for "butoon/image" method 1 */
 .q_container {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
 }
 .q_img {
   width: 14rem;
@@ -86,7 +86,10 @@ background-size: 11rem;
 
 }
 
-
+.w_container {
+  position: relative;
+  text-align: center;
+}
 
 
 .E {}
@@ -197,7 +200,6 @@ background-size: 11rem;
   }
 
 .description {
-  text-align: center;
   margin-top: 0rem;
   margin-bottom:  0rem;
   font-family: 'Ubuntu', sans-serif;
