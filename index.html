@@ -3,9 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Musical Instruments</title>
+  <title>Musical Instruments Web Application</title>
   <!-- Define the "rel" attribute as an icon -->
   <link rel="icon" href="music.png">
+
+  <!-- The order of .css files matter.
+  Having styles.css after bootstrap.min.css means that styles.css overwrites bootstrap.min.css in their shared properties-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
   <!-- Link this sheet with the styles.css sheet -->
   <link rel="stylesheet" href="styles.css">
 
@@ -20,7 +27,7 @@
 </head>
 
 <body>
-  <h1 class="title">&#127926; Musical Instruments &#127926;</h1>
+  <h1 class="title">&#127926; Musical Instruments Web Application&#127926;</h1>
   <h3 class="title_subsection">&#127926; Musical Instruments Are Activated By Pressing the Buttons or Pressing Their Displayed Letters on the Keyboad &#127926;</h3>
 
   <div class="notes">
@@ -32,19 +39,17 @@
     but its original postion's space will remain empty
     2. The paragraph the positoon is absolute. Therefore the element is  postioned relative to its original position
     but its original postion's space will not remain empty  -->
-    <div class="q_container">
-
+    <div class="container">
       <button type="button" class="notes_set Q" onClick="Q()">
-        <img class="q_img" src="q.jpg" />
-        <p class="q_center">
+        <img class="img" src="q.jpg" />
+        <p class="center">
           Q
         </p>
 
       </button>
-      <p class=description>
+      <p class="description">
         Drum Kit
       </p>
-
     </div>
 
 
@@ -52,104 +57,82 @@
     1. The images are added using CSS -->
     <div class="w_container">
       <button class="notes_set W" onClick="W()">W </button>
-
-      <p class=description>
+      <p class="description">
         Piano </p>
-
     </div>
 
 
     <!-- This button/image is made using "butoon/image" method 1 -->
-    <div class="e_container">
-
+    <div class="container">
       <button type="button" class="notes_set E" onClick="E()">
-        <img class="e_img" src="flute.jpg" />
-        <p class="e_center">
+        <img class="img" src="flute.jpg" />
+        <p class="center">
           E
         </p>
-
       </button>
-      <p class=description>
+      <p class="description">
         Flute
       </p>
     </div>
 
     <!-- This button/image is made using "butoon/image" method 1 -->
-    <div class="r_container">
-
+    <div class="container">
       <button type="button" class="notes_set R" onClick="R()">
-        <img class="r_img" src="guitar.jpg" />
-        <p class="r_center">
+        <img class="img" src="guitar.jpg" />
+        <p class="center">
           R
         </p>
-
       </button>
-      <p class=description>
+      <p class="description">
         Guitar
       </p>
     </div>
 
     <!-- This button/image is made using "butoon/image" method 1 -->
-    <div class="t_container">
-
+    <div class="container">
       <button type="button" class="notes_set T" onClick="T()">
-        <img class="t_img" src="violin.jpg" />
-        <p class="t_center">
+        <img class="img" src="violin.jpg" />
+        <p class="center">
           T
         </p>
-
       </button>
-      <p class=description>
+      <p class="description">
         Violin
       </p>
     </div>
 
     <!-- This button/image is made using "butoon/image" method 1 -->
-    <div class="y_container">
-
+    <div class="container">
       <button type="button" class="notes_set Y" onClick="Y()">
-        <img class="y_img" src="harp.jpg" />
-        <p class="y_center">
+        <img class="img" src="harp.jpg" />
+        <p class="center">
           Y
         </p>
-
       </button>
-      <p class=description>
+      <p class="description">
         Harp
       </p>
     </div>
 
     <!-- This button/image is made using "butoon/image" method 1 -->
-    <div class="u_container">
-
+    <div class="container">
       <button type="button" class="notes_set U" onClick="U()">
-        <img class="u_img" src="harmonica.jpg" />
-        <p class="u_center">
+        <img class="img" src="harmonica.jpg" />
+        <p class="center">
           U
         </p>
-
       </button>
-      <p class=description>
+      <p class="description">
         Harmonica
       </p>
     </div>
 
-
   </div>
-
-
-
-
-
-
-
-
 
 
   <!-- The footer section  -->
   <footer>
     <p class="footer">© Copyright 2022 Musical Instruments </p>
-
   </footer>
 
 
