@@ -7,3 +7,6 @@ musical instrumentation sounds that activate based on clicking a putting or pres
 <li>CSS</li>
 <li>JS</li>
 </ul>
+
+<p> The UI of the web application is presented below </p> 
+<img src="UI_1.png" alt="UI">
